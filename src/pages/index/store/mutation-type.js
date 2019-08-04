@@ -1,0 +1,10 @@
+export const PUSH_ELEMENT = 'PUSH_ELEMENT';//向页面中插入元素
+export const CHOOSE_ELEMENT = "CHOOSE_ELEMENT"//选择当前编辑的元素
+export const CHOOSE_PAGE = "CHOOSE_PAGE"//选择当前编辑的页面
+export const CHANGE_TEXT = "CHANGE_TEXT"//双向绑定text文本
+export const CHANGE_STYLE = "CHANGE_STYLE"//改变元素样式的方法
+export const SELECTEDNODE = "SELECTEDNODE"//多选元素的方法
+export const CLEARDATA = "CLEARDATA"//鼠标抬起清除一些东西
+export const SHOWBORDER = "SHOWBORDER"//鼠标移入显示边线
+export const SHOWCIRCLE = "SHOWCIRCLE"//鼠标点击显示8个点
+export const DELETENULL = "DELETENULL"//删除类型为null的元素

@@ -1,0 +1,41 @@
+export default class Element {
+  constructor(ele = {}) {
+    this.type = ele.type || 'text'
+    this.value = ele.value || ""
+    this.imgSrc = ele.imgSrc || require("../../../assets/logo.png")
+    this.videoSrc = ele.videoSrc || ''
+    this.left = ele.left || 0
+    this.top = ele.top || 0
+    this.width = ele.width || 0
+    this.height = ele.height || 0
+    this.lineHeight = ele.lineHeight || 0
+    this.animatedName = ele.animatedName || ''
+    this.duration = ele.duration || 1
+    this.delay = ele.delay || 0
+    this.playing = false
+    this.loop = false
+    this.opacity = ele.opacity || 100
+    this.transform = ele.transform || 0
+    this.text = ele.text || ''
+    this.textAlign = ele.textAlign || 'left'
+    this.iconKey = ele.iconKey || ''
+    this.bg = ele.bg || ''
+    this.fontSize = ele.fontSize || "18px"
+    this.fontFamily = ele.fontFamily || '微软雅黑'
+    this.fontWeight = ele.fontWeight || 'normal'
+    this.color = ele.color || '#000000'
+    this.zindex = ele.zindex || 1
+    this.isShowBorder = ele.isShowBorder || false
+    this.isShowCircle = ele.isShowCircle || false
+    this.background = ele.background || ''
+    this.position = ele.position || 'absolute'
+    this.boxShadowColor = ele.boxShadowColor || "#ffffff"
+    this.boxShadowOffsetX = ele.boxShadowOffsetX || 0
+    this.boxShadowOffsetY = ele.boxShadowOffsetY || 0
+    this.boxShadowBlur = ele.boxShadowBlur || 0
+    this.boxShadowSpread = ele.boxShadowSpread || 0;
+    this.isInset = ele.isInset || ""
+    this.rotateAng = ele.rotateAng || "0deg"
+    this.letterSpacing = ele.letterSpacing || "2px"
+  }
+}
