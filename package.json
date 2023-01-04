@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
-    "@vue/cli-plugin-babel": "^3.9.0",
-    "@vue/cli-service": "^3.9.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "autoprefixer": "^9.6.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
